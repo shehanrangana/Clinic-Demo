@@ -3,10 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Hash;
-use App\User;
+use App\Patient;
 
-class UserController extends Controller
+class PatientController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,7 +14,7 @@ class UserController extends Controller
      */
     public function index()
     {
-        
+        //
     }
 
     /**
@@ -25,7 +24,7 @@ class UserController extends Controller
      */
     public function create()
     {
-        //
+        
     }
 
     /**
@@ -35,34 +34,33 @@ class UserController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {   
-        $password = str_random(8);
-
+    {
         // $this->validate($request, [
+        //     'patient_id' => 'unique:patients,patient_id|required',
         //     'name' => 'required',
-        //     'password' => 'required|min:8',
-        //     'confirm_password' => 'required|min:8',
-        //     'email' => 'unique:users,email|required',
-        //     'gender' => 'required',
+        //     'addressLine1' => 'required',
+        //     'addressLine2' => 'required',
+        //     'nic' => 'required|digits:10',
+        //     'gender' => 'required', 
         //     'birthday' => 'required',
-        //     'mobile' => 'required|numeric', 
-        //     'qualifications' => 'required',
-        //     'user_role' => 'required'
+        //     'mobile' => 'required|numeric|digits:10',
+        //     'gMobile' => 'required|numeric|digits:10'
         // ]); 
-        $user = new User;
-        $user->name = $request->name;
-        $user->password = Hash::make($password);
-        $user->gender = $request->gender;
-        $user->birthday = $request->birthday;
-        $user->email = $request->email;
-        $user->mobile = $request->mobile;
-        $user->user_role = $request->user_role;
-        $user->degree = $request->degree;
-        $user->save();
 
-        $data = User::all();
-        return view('Admin_dashboard/users')->with('users', $data);
+        $patient = new Patient;
+        $patient->name = $request->name;
+        $patient->addressLine1 = $request->addressLine1;
+        $patient->addressLine2 = $request->addressLine2;
+        $patient->addressLine3 = $request->addressLine3;
+        $patient->gender = $request->gender;
+        $patient->birthday = $request->birthday;
+        $patient->nic = $request->nic;
+        $patient->mobile = $request->mobile;
+        $patient->gMobile = $request->gMobile;
+        $patient->save();
 
+        $data = Patient::all();
+        return view('Admin_dashboard/patients')->with('patients', $data);
     }
 
     /**
@@ -73,7 +71,7 @@ class UserController extends Controller
      */
     public function show($id)
     {
-        //
+        
     }
 
     /**

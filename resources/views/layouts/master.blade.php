@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>App Name - @yield('title')</title>
+    <title>@yield('title')</title>
 
     <!-- VENDOR CSS -->
 	<link rel="stylesheet" href="/admin_dashboard/vendor/bootstrap/css/bootstrap.min.css">
@@ -17,8 +17,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
 
 	<!-- ICONS -->
-	<link rel="apple-touch-icon" sizes="76x76" href="./admin_dahsboard/img/apple-icon.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="./admin_dashboard/img/favicon.png">
+	<!-- <link rel="apple-touch-icon" sizes="76x76" href="./admin_dahsboard/img/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="./admin_dashboard/img/favicon.png"> -->
 </head>
 <body>
 
@@ -44,7 +44,7 @@
         <div class="clearfix"></div>
 		<footer>
 			<div class="container-fluid">
-				<p>Clinic Management System</p>
+				
 			</div>
 		</footer>
 	</div>

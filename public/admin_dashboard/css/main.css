@@ -151,7 +151,7 @@ html.fullscreen-bg #wrapper {
   border: none;
   background-color: #fff; }
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    background-color: #fafafa; }
+    background-color: #fafafa; vertical-align: middle; }
   .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color: #f8f8f8; }
   .navbar-default .brand {
@@ -222,7 +222,7 @@ html.fullscreen-bg #wrapper {
     right: 16px; }
 
 .navbar-nav > li > a {
-  padding: 28px 20px; }
+  padding: 5px 20px; }
   .navbar-nav > li > a > i {
     font-size: 22px;
     margin-right: 2px;
@@ -237,7 +237,7 @@ html.fullscreen-bg #wrapper {
     position: relative;
     top: 2px; }
   .navbar-nav > li > a img {
-    width: 22px;
+    width: 20px;
     margin-right: 2px; }
 
 .navbar-nav > li > .dropdown-menu {
@@ -257,7 +257,9 @@ html.fullscreen-bg #wrapper {
 
 @media screen and (min-width: 768px) {
   .navbar-nav.navbar-right {
-    margin-right: 0; } }
+    margin-right: 0; }
+    .navbar-nav > li > a {
+      padding: 20px 20px; } }
 
 @media screen and (max-width: 767px) {
   .navbar-nav {
@@ -324,6 +326,7 @@ ul.notifications > li {
       text-decoration: none; }
 
 .dropdown-menu {
+  width: -webkit-fill-available;
   -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);

@@ -3,10 +3,13 @@
       <div class="row">
         <div class="col-md-3 col-sm-4 col-xs-12">
           <div class="section-title">
-            <h2 class="head-title lg-line">The Medilap <br>Ultimate Dream</h2>
+            <h2 class="head-title lg-line">FOR WHAT?</h2>
             <hr class="botm-line">
-            <p class="sec-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
-            <a href="" style="color: #0cb8b6; padding-top:10px;">Know more..</a>
+            <p class="sec-para">Main reason of most of the patients that don’t like to go to government clinics is 
+            they need to wait for a long time to meet the doctor. Sometimes they may need to come back next day
+             because of the long queue. From using our system, patient can get an appointment to the clinic when 
+             come to the clinic or by calling to the clinic’s contact number. It will reduce the queue congestion 
+             and patient can save their valuable time.</p>
           </div>
         </div>
         <div class="col-md-9 col-sm-8 col-xs-12">
@@ -14,15 +17,25 @@
             <div class="more-features-box-text">
               <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
               <div class="more-features-box-text-description">
-                <h3>It's something important you want to know.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
+                <h3>Improved time scheduling</h3>
               </div>
             </div>
             <div class="more-features-box-text">
               <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
               <div class="more-features-box-text-description">
-                <h3>It's something important you want to know.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
+                <h3>No worry about medical reports' safety</h3>
+              </div>
+            </div>
+            <div class="more-features-box-text">
+              <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
+              <div class="more-features-box-text-description">
+                <h3>SMS Notifications</h3>
+              </div>
+            </div>
+            <div class="more-features-box-text">
+              <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
+              <div class="more-features-box-text-description">
+                <h3>Computerized system</h3>
               </div>
             </div>
           </div>

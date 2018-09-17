@@ -8,11 +8,11 @@
         <div class="col-md-4 col-sm-4">
           <h3>Contact Info</h3>
           <div class="space"></div>
-          <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>321 Awesome Street<br> New York, NY 17022</p>
+          <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Address Line 1<br> Address Line 2 </p>
           <div class="space"></div>
-          <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>info@companyname.com</p>
+          <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>cmsinfo@demo.com</p>
           <div class="space"></div>
-          <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+1 800 123 1234</p>
+          <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+94xxxxxxxxx</p>
         </div>
         <div class="col-md-8 col-sm-8 marb20">
           <div class="contact-info">

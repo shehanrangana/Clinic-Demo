@@ -4,14 +4,14 @@
 </div>
 <!--/ banner-->
 <!--service-->
-<div>
+<!-- <div>
   @include('./Landing_page/service')
-</div>
+</div> -->
 <!--/ service-->
 <!--cta-->
-<div>
+<!-- <div>
   @include('./Landing_page/cta')
-</div>
+</div> -->
 <!--cta-->
 <!--about-->
 <div>
@@ -25,9 +25,9 @@
 <!--/ doctor team-->
 
 <!--cta 2-->
-<div>
+<!-- <div>
   @include('./Landing_page/cta2')
-</div>
+</div> -->
 <!--cta-->
 <!--contact-->
 <div>

@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Dashboard')
+@section('title', 'My Account')
 
 @section('content')
 	<!-- MAIN -->
@@ -8,7 +8,7 @@
 		<!-- MAIN CONTENT -->
 		<div class="main-content">
 			<div class="container-fluid">
-				
+
 			</div>
 		</div>
 	</div>

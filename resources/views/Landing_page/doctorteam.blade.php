@@ -2,62 +2,42 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="ser-title">Meet Our Doctors!</h2>
+          <h2 class="ser-title">Our Doctors!</h2>
           <hr class="botm-line">
         </div>
         <div class="col-md-3 col-sm-3 col-xs-6">
           <div class="thumbnail">
-            <img src="./landing_page/img/doctor1.jpg" alt="..." class="team-img">
+            <img src="./landing_page/img/doctor1.png" alt="..." class="team-img">
             <div class="caption">
-              <h3>Jessica Wally</h3>
+              <h3>Doctor 1</h3>
               <p>Doctor</p>
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-              </ul>
             </div>
           </div>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-6">
           <div class="thumbnail">
-            <img src="./landing_page/img/doctor2.jpg" alt="..." class="team-img">
+            <img src="./landing_page/img/doctor2.png" alt="..." class="team-img">
             <div class="caption">
-              <h3>Iai Donas</h3>
+              <h3>Doctor 2</h3>
               <p>Doctor</p>
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-              </ul>
             </div>
           </div>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-6">
           <div class="thumbnail">
-            <img src="./landing_page/img/doctor3.jpg" alt="..." class="team-img">
+            <img src="./landing_page/img/doctor3.png" alt="..." class="team-img">
             <div class="caption">
-              <h3>Amanda Denyl</h3>
+              <h3>Doctor 3</h3>
               <p>Doctor</p>
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-              </ul>
             </div>
           </div>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-6">
           <div class="thumbnail">
-            <img src="./landing_page/img/doctor4.jpg" alt="..." class="team-img">
+            <img src="./landing_page/img/doctor4.png" alt="..." class="team-img">
             <div class="caption">
-              <h3>Jason Davis</h3>
+              <h3>Doctor 4</h3>
               <p>Doctor</p>
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-              </ul>
             </div>
           </div>
         </div>

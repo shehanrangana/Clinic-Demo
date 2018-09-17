@@ -11,6 +11,7 @@
 |
 */
 
+
 Route::get('/', function () {
     return view('index');
 });
@@ -27,12 +28,46 @@ Route::get('admin/newuser', function () {
     return view('Admin_dashboard/newuser');
 });
 
-Route::get('/doctor', function () {
-    return view('Doctor_dashboard/main');
+Route::get('admin/appointments', function () {
+    return view('Admin_dashboard/appointments');
 });
+
+Route::get('admin/patients', function () {
+    $data = App\Patient::all();
+    return view('Admin_dashboard/patients')->with('patients', $data);
+});
+
+Route::get('admin/users', function () {
+    $data = App\User::all();
+    return view('Admin_dashboard/users')->with('users', $data);
+});
+
+Route::get('admin/pharmacy', function () {
+    return view('Admin_dashboard/pharmacy');
+});
+
+Route::get('admin/sms', function () {
+    return view('Admin_dashboard/sms');
+});
+
+Route::get('admin/myaccount', function () {
+    return view('Admin_dashboard/myaccount');
+});
+
+
+Route::post('/admin/saveUser', 'UserController@store');
+Route::post('/admin/savePatient', 'PatientController@store');
+
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::post('/admin/saveUser', 'UserController@store');
+
+// lab assistant
+
+Route::get('/la', function () {
+    return view('Lab_assistant/main');
+});
+
+Route::post('/la/addlabreport', 'LabController@store');
