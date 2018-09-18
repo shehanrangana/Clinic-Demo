@@ -35,19 +35,19 @@
 					</div>
   					<div class="form-group">
   					  	<label for="InputField8">Birthday *</label>
-  					  	<input type="text" name="birthday" class="form-control" id="InputField8" placeholder="yyyy-mm-dd" required>
+  					  	<input type="text" name="birthday" class="form-control" id="InputField8" placeholder="yyyy-mm-dd" required pattern="[0-9]{4}[-][0-9]{2}[-][0-9]{2}">
   					</div>
 					<div class="form-group">
   					  	<label for="InputField6">NIC *</label>
-  					  	<input type="text" name="nic" class="form-control" id="InputField6" placeholder="NIC" required>
+  					  	<input type="text" name="nic" class="form-control" id="InputField6" placeholder="NIC" required pattern="[0-9]{9}[v,V]">
 					</div>
                     <div class="form-group">
   					  	<label for="InputField9">Mobile</label>
-  					  	<input type="number" name="mobile" class="form-control" id="InputField9" placeholder="Mobile" numeric>
+  					  	<input type="text" name="mobile" class="form-control" id="InputField9" placeholder="Mobile" required pattern="[0-9]{10}">
 					</div>
 					<div class="form-group">
   					  	<label for="InputField10">Guardian's Mobile</label>
-  					  	<input type="number" name="gMobile" class="form-control" id="InputField10" placeholder="Guardian's Mobile">
+  					  	<input type="text" name="gMobile" class="form-control" id="InputField10" placeholder="Guardian's Mobile" required pattern="[0-9]{10}">
   					</div>
 					<br>
   					<button type="submit" class="btn btn-default" placeholder="Qualifications">Submit</button>

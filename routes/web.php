@@ -62,12 +62,3 @@ Route::post('/admin/savePatient', 'PatientController@store');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
-
-// lab assistant
-
-Route::get('/la', function () {
-    return view('Lab_assistant/main');
-});
-
-Route::post('/la/addlabreport', 'LabController@store');

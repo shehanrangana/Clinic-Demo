@@ -31,7 +31,7 @@
   					</div>
                     <div class="form-group">
   					  	<label for="InputField7">Mobile *</label>
-  					  	<input type="telephone" min="0" name="mobile" class="form-control" id="InputField7" placeholder="Mobile" required>
+  					  	<input type="telephone" min="0" name="mobile" class="form-control" id="InputField7" placeholder="Mobile" required pattern="[0-9]{10}">
   					</div>
 					<div class="row"> 
 						<div class="col-md-4" >
